@@ -1,0 +1,90 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f3f4f6;
+  color: #1f2937;
+}
+
+.container {
+  max-width: 480px;
+  margin: 40px auto;
+}
+
+.box {
+  padding: 24px;
+  margin-bottom: 24px;
+  border-radius: 12px;
+  background: #fff;
+}
+
+.box h2 {
+  margin-top: 0;
+}
+
+button {
+  padding: 8px 14px;
+  border: none;
+  border-radius: 6px;
+  background: #2563eb;
+  color: #fff;
+  cursor: pointer;
+}
+
+.tracker__form {
+  display: flex;
+  gap: 8px;
+}
+
+.tracker__input {
+  flex: 1;
+  padding: 8px 10px;
+  border: 1px solid #d1d5db;
+  border-radius: 6px;
+}
+
+.tracker__list {
+  margin: 16px 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.tracker__item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 8px 0;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.tracker__item button {
+  background: #dc2626;
+}
+
+.tracker__text {
+  flex: 1;
+}
+
+.tracker__text--done {
+  text-decoration: line-through;
+  color: #16a34a;
+}
+
+.tracker__empty {
+  color: #9ca3af;
+}
+
+.light {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 80px;
+  padding: 12px;
+  border-radius: 16px;
+  background: #222;
+}
+
+.light__lamp {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+}

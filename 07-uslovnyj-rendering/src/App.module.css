@@ -1,0 +1,10 @@
+.page {
+  max-width: 860px;
+  margin: 40px auto;
+  border: 1px solid #d1d5db;
+  background: #fff;
+}
+
+.content {
+  padding: 24px 28px 32px;
+}
